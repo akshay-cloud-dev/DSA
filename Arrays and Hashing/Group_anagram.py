@@ -1,5 +1,5 @@
 #Group Anagrams
-from typing import defaultdict
+from typing import defaultdict, List
 class Solution():
     def group_anagram(self, strs:List[str])->List[List[str]]:
         res = defaultdict(list)
